@@ -1,0 +1,24 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 25 Jan 2025 19:17:24 at https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-cards.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-cards.html -O1 "C:\My Web Sites\portfolio detail" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:18:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/about/s-icon1.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html)
+19:18:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/about/s-icon2.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html)
+19:18:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/blogs/blog1/5.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-grid.html)
+19:18:24	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/blogs/blog1/6.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-grid.html)
+19:18:24	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/team/avatar2.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/team.html)
+19:18:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works1/2.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html)
+19:18:26	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works1/4.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html)
+19:18:27	Error: 	"Not Found" (404) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-list.html (from https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-standard.html)
+19:18:27	Error: 	"Not Found" (404) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-classic.html (from https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-details.html)
+19:18:27	Error: 	"Not Found" (404) at link https://uithemez.com/i/hubfolio_HTML/common/css/images/close.png (from https://uithemez.com/i/hubfolio_HTML/common/css/plugins/YouTubePopUp.css)
+19:18:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/about/s-icon1.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html)
+19:18:27	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/about/s-icon2.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html)
+19:18:27	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/about/s-icon1.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 3 seconds : 131 links scanned, 117 files written (24008342 bytes overall) [22491638 bytes received at 357010 bytes/sec], 2016221 bytes transferred using HTTP compression in 63 files, ratio 22%, 10.0 requests per connection
+(4 errors, 9 warnings, 0 messages)

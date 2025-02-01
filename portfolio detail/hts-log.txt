@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 26 Jan 2025 09:45:39 at https://uithemez.com/i/hubfolio_HTML/inner_pages/project-details.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://uithemez.com/i/hubfolio_HTML/inner_pages/project-details.html -O1 "C:\My Web Sites\portfolio detail" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:46:46	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/about/s-icon1.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html)
+09:46:46	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/about/s-icon2.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/about.html)
+09:46:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works3/4.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-cards.html)
+09:46:50	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/price/testim/Vector_Cricle_Text.svg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/pricing.html)
+09:46:52	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works1/2.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html)
+09:46:52	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works1/3.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html)
+09:46:52	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works1/7.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html)
+09:46:52	Error: 	"Not Found" (404) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-list.html (from https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-standard.html)
+09:46:54	Error: 	"Not Found" (404) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-classic.html (from https://uithemez.com/i/hubfolio_HTML/inner_pages/blog-details.html)
+09:46:54	Error: 	"Not Found" (404) at link https://uithemez.com/i/hubfolio_HTML/common/css/images/close.png (from https://uithemez.com/i/hubfolio_HTML/common/css/plugins/YouTubePopUp.css)
+09:46:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works3/4.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-cards.html)
+09:46:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works1/2.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html)
+09:46:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works1/3.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-standard.html)
+09:46:54	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://uithemez.com/i/hubfolio_HTML/inner_pages/assets/imgs/portfolio/works3/4.jpg (from https://uithemez.com/i/hubfolio_HTML/inner_pages/portfolio-cards.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 17 seconds : 132 links scanned, 117 files written (23714558 bytes overall) [22196571 bytes received at 288267 bytes/sec], 2019004 bytes transferred using HTTP compression in 64 files, ratio 22%, 10.1 requests per connection
+(4 errors, 10 warnings, 0 messages)
