@@ -36,46 +36,12 @@
         .logo{
             width: 15%;
         }
-        @media screen and (max-width: 768px){
-            .logo{
-                width: 50%;
-            }
-            
+        @media screen and (max-width: 768px) {
+        .logo {
+            width: 130px; /* Set a fixed width in pixels for mobile devices */
         }
-        @media screen and (max-width: 400px) {
-            .topnav {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .topnav .butn {
-                margin-bottom: 10px;
-                width: 100%;
-                text-align: center;
-            }
-
-            .menu-icon {
-                margin-left: auto;
-            }
-
-            .view-project-desktop {
-                display: none;
-            }
-
-            .view-project-mobile {
-                display: inline;
-            }
-        }
-
-        @media screen and (min-width: 401px) {
-            .view-project-desktop {
-                display: inline;
-            }
-
-            .view-project-mobile {
-                display: none;
-            }
-        }
+    }
+    
     </style>
 
 </head>
@@ -152,8 +118,7 @@
             <div class="topnav d-flex align-items-center">
                 <a href="https://yohannes-sisters.com/" class="butn butn-rounded">
                     <div class="d-flex align-items-center">
-                        <span class="view-project-desktop">View Project</span>
-                        <span class="view-project-mobile">View <br> Project</span>
+                        <span>View Project</span>
                         <span class="icon ml-10">
                             <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/arrow-top-right.svg" alt="">
                         </span>
