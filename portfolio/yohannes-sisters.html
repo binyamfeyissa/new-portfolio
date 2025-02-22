@@ -42,75 +42,40 @@
             }
             
         }
-        @media screen and (max-width: 768px) {
-    .fit-img img {
-        width: 100%;
-        height: auto;
-    }
+        @media screen and (max-width: 395px) {
+            .topnav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
 
-    .img {
-        width: 100%;
-        height: auto;
-    }
+            .topnav .butn {
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+            }
 
-    .img img {
-        width: 100%;
-        height: auto;
-    }
+            .menu-icon {
+                margin-left: auto;
+            }
 
-    .container {
-        padding: 0 15px;
-    }
+            .view-project-desktop {
+                display: none;
+            }
 
-    .caption.sec-head h1 {
-        font-size: 40px;
-    }
+            .view-project-mobile {
+                display: inline;
+            }
+        }
 
-    .caption.sec-head .sub-head {
-        font-size: 20px;
-    }
+        @media screen and (min-width: 396px) {
+            .view-project-desktop {
+                display: inline;
+            }
 
-    .info .item h6 {
-        font-size: 16px;
-    }
-
-    .info .item span {
-        font-size: 14px;
-    }
-
-    .proj-details .content h2 {
-        font-size: 24px;
-    }
-
-    .proj-details .content p {
-        font-size: 14px;
-    }
-
-    .proj-details .content ul li {
-        font-size: 14px;
-    }
-
-    .proj-details .content h3 {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 395px) {
-    .topnav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .topnav .butn {
-        margin-bottom: 10px;
-        width: 100%; /* Make the button take full width */
-        text-align: center; /* Center the text inside the button */
-    }
-
-    .menu-icon {
-        margin-left: auto;
-    }
-}
+            .view-project-mobile {
+                display: none;
+            }
+        }
     </style>
 
 </head>
@@ -187,7 +152,8 @@
             <div class="topnav d-flex align-items-center">
                 <a href="https://yohannes-sisters.com/" class="butn butn-rounded">
                     <div class="d-flex align-items-center">
-                        <span>View Project</span>
+                        <span class="view-project-desktop">View Project</span>
+                        <span class="view-project-mobile">View <br> Project</span>
                         <span class="icon ml-10">
                             <img src="https://uithemez.com/i/hubfolio_HTML/common/imgs/icons/arrow-top-right.svg" alt="">
                         </span>
