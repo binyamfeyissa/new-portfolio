@@ -41,6 +41,36 @@
             }
             
         }
+        /* Ensure the container has proper overflow handling */
+        .container-xxl {
+            overflow: hidden;
+        }
+        /* Ensure the footer is positioned correctly */
+        .footer-sa {
+            position: relative;
+            z-index: 10;
+        }
+        /* Adjust the card items to ensure they fit within the container */
+        .card-item {
+            margin-bottom: 20px;
+        }
+        /* Ensure the cards container has proper padding and margin */
+        .cards {
+            padding-bottom: 50px;
+        }
+        /* Adjustments for mobile devices */
+        @media (max-width: 768px) {
+            .cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .card-item {
+                width: 100%;
+                max-width: 300px;
+                margin: 10px;
+            }
+        }
     </style>
     <link rel="stylesheet" href="assets/css/inner_pages.css">
 
@@ -306,7 +336,7 @@
                                     <h5 class="bottom left">Yohannes Sisters</h5>
                                 </div>
                             </div>
-                            <div class="card-item cursor-pointer" data-href="pvs.html">
+                            <div class="card-item cursor-pointer" data-href="la-vie-en-rose.html">
                                 <div class="img fit-img">
                                     <img src="assets/imgs/portfolio/10.png" alt="">
                                     <div class="tags">
