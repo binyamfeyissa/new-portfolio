@@ -24,4 +24,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
 
           # IMPORTANT: Addon domain directory
-          server-dir: /home/plutotechnologie/binyamfeyissa.dev/
+          server-dir: binyamfeyissa.dev/
