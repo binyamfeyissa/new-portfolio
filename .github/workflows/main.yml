@@ -1,0 +1,27 @@
+name: Publish Website to binyamfeyissa.dev
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ftp-deploy:
+    name: Deploy to cPanel Addon Domain
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Deploy via FTP to binyamfeyissa.dev
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+
+          # IMPORTANT: Addon domain directory
+          server-dir: /home/plutotechnologie/binyamfeyissa.dev/
