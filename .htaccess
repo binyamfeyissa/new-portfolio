@@ -1,10 +1,17 @@
 RewriteEngine On
 
-# If the requested path is not an existing file or directory
+# 1) Canonicalize /path/index or /path/index.html -> /path/
+#    Example: /portfolio/index  -> /portfolio/
+#             /portfolio/index.html -> /portfolio/
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index(?:\.html)?[\s?] [NC]
+RewriteRule ^(.*/)?index(?:\.html)?$ /$1 [R=301,L]
+
+# 2) Extensionless .html support
+#    If the requested path is not an existing file or directory
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# If there is a matching .html file, serve it
-# /portfolio/sunshineapp -> /portfolio/sunshineapp.html
+#    If there is a matching .html file, serve it
+#    Example: /portfolio/sunshineapp -> /portfolio/sunshineapp.html
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+?)/?$ $1.html [L,QSA]
